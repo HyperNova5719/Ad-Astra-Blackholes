@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "ad_astra_blackhole",
+  "version": "${version}",
+  "name": "Ad Astra Blackhole Addons",
+  "description": "Adds blackholes to Ad Astra",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ad_astra_blackhole/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "hypernova.ad_astra_blackhole.client.Ad_astra_blackholeClient"
+    ],
+    "main": [
+      "hypernova.ad_astra_blackhole.Ad_astra_blackhole"
+    ]
+  },
+  "mixins": [
+    "ad_astra_blackhole.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
