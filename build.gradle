@@ -1,4 +1,4 @@
-plugins {
+C:\Users\thoma\Voided-Hopesplugins {
     id 'fabric-loom' version '1.9-SNAPSHOT'
     id 'maven-publish'
 }
